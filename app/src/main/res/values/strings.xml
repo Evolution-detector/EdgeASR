@@ -1,49 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Voice Recorder</string>
-    <string name="confirm_recording_folder">You must confirm the folder where you want to save your recordings. Please press "OK" to continue.</string>
-    <string name="move_recordings">Move recordings</string>
-    <string name="move_recordings_to_new_folder_desc">You have existing recordings. Do you want to move them to your new folder?</string>
-    <string name="recording_saved_successfully">Recording saved successfully</string>
-    <string name="recording_too_short">Recording was too short to record!</string>
-    <string name="recording">Recording</string>
-    <string name="no_recordings_found">No recordings created by this app\nhave been found</string>
-    <string name="no_recordings_in_folder_found">No recordings have been found\nin the selected folder</string>
-    <string name="paused">Paused</string>
+    <string name="app_launcher_name">Speech Recognition</string>
+    <string name="app_name_long">Offline Speech Recognition</string>
+
+    <string name="no_recordings_found">No recordings found</string>
+    <string name="recordings">Recordings</string>
+    <string name="bitrate">Bitrate</string>
+    <string name="audio_source">Audio source</string>
+    <string name="extension">Extension</string>
+    <string name="stop_recording_on_call">Stop recording on call</string>
+    <string name="hide_notification">Hide notification</string>
+    <string name="save_recording">Save recording</string>
+    <string name="filename">Filename</string>
+    <string name="ask_filename">Ask filename</string>
+    <string name="default_filename">Default filename</string>
+    <string name="rename_recording">Rename recording</string>
     <string name="recorder">Recorder</string>
     <string name="player">Player</string>
-    <!-- Confirmation dialog -->
-    <string name="discard_recording">Discard recording</string>
-    <string name="discard_recording_confirmation">Are you sure you want to discard the current recording? This cannot be undone.</string>
-    <string name="change_microphone_mode_confirmation">This changes how your device routes and processes audio. Results vary by device and can impact volume, noise, and other factors.</string>
-    <!-- Are you sure you want to delete 5 recordings? -->
-    <string name="delete_recordings_confirmation">Delete %s\?</string>
-    <plurals name="delete_recordings">
-        <item quantity="one">%d recording</item>
-        <item quantity="other">%d recordings</item>
-    </plurals>
-    <!-- Settings -->
-    <string name="save_recordings_in">Save recordings in</string>
-    <string name="filename_pattern">Filename pattern</string>
-    <string name="filename_pattern_must_contain_all">Must include all placeholders for unique filenames (%Y, %M, %D, %h, %m, %s)</string>
-    <string name="audio_source">Audio source</string>
-    <string name="microphone_mode">Microphone mode</string>
-    <string name="bitrate">Bitrate</string>
-    <string name="record_after_launch">Start recording automatically after launching the app</string>
-    <string name="keep_screen_on">Keep the screen on during recording</string>
+    <string name="start_recording">Start recording</string>
+    <string name="stop_recording">Stop recording</string>
+    <string name="pause_recording">Pause recording</string>
+    <string name="resume_recording">Resume recording</string>
+    <string name="share_recording">Share recording</string>
+    <string name="open_recording">Open recording</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="toggle_filename_visibility">Toggle filename visibility</string>
+    <string name="recording_saved_successfully">Recording saved successfully</string>
+    <string name="try_creating_file_on_internal">Try creating the file on internal storage to see if it helps.</string>
+    <string name="please_enter_filename">Please enter a filename.</string>
+    <string name="file_already_exists_overwrite">File %s already exists. Overwrite?</string>
+    <string name="recording_completed">Recording completed</string>
+    <string name="click_to_stop_recording">Click to stop recording</string>
     <string name="sample_rate">Sample rate</string>
-    <!-- Settings Microphone mode selection -->
-    <string name="microphone_mode_camcorder">Camera (video)</string>
-    <string name="microphone_mode_voice_communication">Voice communication (auto gain)</string>
-    <string name="microphone_mode_voice_performance">Voice performance (low-latency)</string>
-    <string name="microphone_mode_voice_recognition">Voice recognition</string>
-    <string name="microphone_mode_unprocessed">Unprocessed (raw)</string>
-    <!-- FAQ -->
-    <string name="faq_1_title">Can I hide the notification icon during recording?</string>
-    <string name="faq_1_text">Well, it depends. While you use your device it is no longer possible to fully hide the notifications of apps like this.
-        If you check the proper setting item, the app will do its best to hide it. You can hide it on the lockscreen though, if you disable the displaying of sensitive notifications in your device settings.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
+    <string name="recording">Recording</string>
+
+    <string name="timestamp_missing_error">Timestamp file is missing, so you can\'t jump to individual sentences</string>
+    <string name="recognition_result_missing">Speech recognition results are missing</string>
+    <string name="audio_file_missing_error">Audio file is missing</string>
 </resources>
